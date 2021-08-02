@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Minh Hung</title>
+
+    <!-- import CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- custom css -->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="#">
+                <img src="./images/logo.png" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <div id="slides" class="carousel sile" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1" class="active"></li>
+            <li data-target="#slides" data-slide-to="2" class="active"></li>
+            <li data-target="#slides" data-slide-to="3" class="active"></li>
+        </ul>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/1800/1000?random=1" alt="slider0">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Example</h1>
+                    <h3>Autolayout with bootstrap</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">
+                        View Tutorials
+                    </button>
+                    <button type="button" class="btn btn-primary btn-lg">
+                        Click here
+                    </button>
+                </div>
+                <div class="overlay"></div>
+
+            </div>
+            <div class="carousel-item ">
+                <img src="https://picsum.photos/1800/1000?random=2" alt="slider0">
+            </div>
+            <div class="carousel-item ">
+                <img src="https://picsum.photos/1800/1000?random=3" alt="slider0">
+            </div>
+            <div class="carousel-item ">
+                <img src="https://picsum.photos/1800/1000?random=4" alt="slider0">
+            </div>
+        </div>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <div class="col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Porro dolorum expedita rem id adipisci sapiente inventore perferendis nam,
+                    deleniti, nostrum unde tempore eveniet ut accusantium dicta minima suscipit nobis modi.</p>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-outline-secondary">Click Me</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row  welcome text-center padding">
+            <div class="col-12">
+                <h1 class="display-4">Build Your App</h1>
+            </div>
+
+            <!-- Horizontal Rule -->
+            <hr>
+            <div class="col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-angular"></i>
+                <h3>Angular</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>HTML</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur </p>
+            </div>
+        </div>
+        <hr class="my-5">
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>If you build it</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a in voluptatem nemo commodi eligendi
+                    omnis iure nisi voluptas at impedit, officia, nostrum eveniet magni dicta. Ipsum voluptatem
+                    assumenda delectus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iste ipsa earum nesciunt sunt,
+                    distinctio quam! Labore eos pariatur sapiente quod neque, veniam distinctio quis rerum enim modi
+                    vitae tenetur.</p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <img src="https://picsum.photos/1800/1000?random=5" alt="laptop" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+    <hr class="my-2">
+    <button class="fun" data-toggle="collapse" data-target="#emoji">
+        Click for fun
+    </button>
+
+    <div id="emoji" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="./images/gif/haha.gif" alt="gif" width="100" height="100">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="./images/gif/blinkEyes.gif" alt="gif" width="100" height="100">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="./images/gif/lostOfLove.gif" alt="gif" width="100" height="100">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="./images/gif/yes.gif" alt="gif" width="100" height="100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row  welcome text-center padding">
+            <div class="col-12">
+                <h1 class="display-4">Meeting our Team</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/John Harry.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Nguyen Minh Hung</h4>
+                        <p class="card-text">Nguyen Minh Hung is a fullstack developer</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/John Harry.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Nguyen Minh Hung</h4>
+                        <p class="card-text">Nguyen Minh Hung is a fullstack developer</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/John Harry.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Nguyen Minh Hung</h4>
+                        <p class="card-text">Nguyen Minh Hung is a fullstack developer</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row contact text-center padding">
+            <div class="col-12 ">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="./images/logo.png" alt="logo" width="100" height="100">
+                    <hr class="light">
+                    <p>111-222-3333</p>
+                    <p>email@abc.com</p>
+                    <p>Di an - Binh Duong</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h4>Working hours</h4>
+                    <hr class="light">
+                    <p>Monday-Friday: 8am - 5pm</p>
+                    <p>Weekend: 8am - 12pm</p>
+                   
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h4>Service</h4>
+                    <hr class="light">
+                    <p>web</p>
+                    <p>Mobile</p>
+                </div>
+            </div>
+            <div class="container-fluid padding">
+                <div class="col-12 text-center">
+                    <hr class="light-100">
+                    <h5>&copy; Hung</h5> 
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

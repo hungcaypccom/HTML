@@ -1,0 +1,123 @@
+@import url('https://fonts.google.com/specimen/Padauk#standard-styles');
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Padauk;
+}
+.navbar{
+    background-color: rgba(82, 64, 120, 0.9) !important;
+}
+.navbar li a {
+    color: white !important;
+}
+
+.navbar li a:hover {
+    color :black !important;
+}
+.carousel-item {
+    height: 100%;
+    width: 100%;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 25%;
+}
+
+.carousel-caption h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px #000;
+}
+
+.carousel-caption h3 {
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px #000;
+}
+
+@media(max-width: 375px) {
+    .carousel-caption h1 {
+        font-size: 300%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 100%;
+    }
+    .carousel-caption .btn-primary {
+        margin-top: 10px;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 10, 0.3);
+}
+
+.welcome hr {
+    border-top: 2px solid rgba(62, 44, 100, 0.6);
+    width: 95%;
+}
+
+.fa-angular {
+color: rgb(177, 43, 55)
+}
+
+.fa-react {
+color: #81D8F7;
+}
+
+.fa-css3 {
+color: #D76537;
+}
+
+.fa-angular, .fa-react, .fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fun {
+    width: 100%;
+}
+
+.social a{
+font-size: 3em;
+padding: 3rem;
+}
+
+.fa-facebook {
+ color: #3b5998;
+}
+.fa-google-plus-g{
+color: #dd4b39;
+}
+.fa-instagram{
+color: #517fa4;
+}
+.fa-twitter{
+
+}
+.fa-youtube{
+color: #bb0000;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: aliceblue;
+}
+hr.light , .light-100 {
+    border-top: 1px solid aliceblue;;
+    width: 75%;
+}
+
+.contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
